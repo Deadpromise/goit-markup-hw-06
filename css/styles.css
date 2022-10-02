@@ -204,7 +204,6 @@ img {
 	border-radius: 4px;
 	padding: 10px;
 
-
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
@@ -458,6 +457,68 @@ display: flex;
 .footer-social {
 	background-color: rgba(255, 255, 255, 0.1);
 	fill: var(--secondary-color);
+}
+.footer-form {
+	display: flex;
+	align-items: flex-end;
+	width: 570px;
+	margin-left: 90px;
+}
+
+.footer-field {
+	display: flex;
+	flex-direction: column;
+
+}
+.footer-field input {
+	width: 358px;
+	height: 50px;
+	margin: 0;
+	padding: 0 15px;
+	border-radius: 4px;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
+}
+.footer-field label {
+	margin-bottom: 20px;
+}
+
+.send-call {
+	font-weight: 700;
+}
+.subscr-but {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-left: 12px;
+
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+
+	color: var(--secondary-color);
+	background-color: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscr-but:hover,
+.subscr-but:focus {
+	background-color: var(--active-button);
+}
+.send-icon {
+	margin-left: 10px;
 }
 
 /* Modal */
