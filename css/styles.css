@@ -31,6 +31,9 @@ img {
 	display: block;
 	max-width: 100%;
 }
+p {
+	margin: 0;
+}
 .list p {
 	margin: 0;
 }
@@ -462,7 +465,7 @@ display: flex;
 	display: flex;
 	align-items: flex-end;
 	width: 570px;
-	margin-left: 90px;
+	margin-left: auto;
 }
 
 .footer-field {
@@ -550,6 +553,7 @@ display: flex;
 	left: 50%;
 	min-height: 580px;
 	min-width: 530px;
+	padding: 40px;
 	background-color: var(--secondary-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
@@ -577,7 +581,6 @@ display: flex;
 	fill: var(--accent-color);
 }
 .form-header {
-	margin-top: 40px;
 	margin-bottom: 12px;
 
 	font-weight: 700;
@@ -589,10 +592,7 @@ display: flex;
 	color: var(--header-color);
 }
 .modal-form {
-	width: 448px;
-	margin-left: auto;
-	margin-right: auto;
-	
+	width: 448px;	
 }
 
 .input-field {
